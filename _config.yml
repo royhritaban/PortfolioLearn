@@ -21,7 +21,6 @@
 title: Roy Hritaban
 email: h.roy.23@abdn.ac.uk
 name: Roy H.
-logo: https://www.back2.co.uk/media/mageplaza/brand/RH_logo_black_ppt__1.jpg
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -34,10 +33,26 @@ github_username:  asdfasdfasdf
 # Build settings
 #theme: minima
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 plugins:
   - jekyll-feed
+
+author:
+  name: "Hritaban Roy"
+  avatar: "/assets/headshot_square.jpeg"
+  bio: "Computing Science fresher at the University of Aberdeen. Skilled in Python and Data Analytics. Currently learning AI and web development. Eager to collaborate and contribute to the tech community." # Note: Markdown is allowed
+  location: "Aberdeen, Scotland"
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/hritabanroy/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/royhritaban"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/hritabanr/"
 
 defaults:
   #_posts
@@ -45,12 +60,11 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
-
 include: ["_pages"]
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -71,3 +85,4 @@ include: ["_pages"]
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
