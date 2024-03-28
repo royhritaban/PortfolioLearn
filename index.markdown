@@ -11,7 +11,7 @@ excerpt: >
   Python expertise powering your software needs
   <br>
 feature_row:
-  - image_path: /assets/branded_school_uniforms.webp
+  - image_path: /assets/poster_bsu.png
     alt: "customizable"
     title: "BrandedSchoolUniforms"
     excerpt: "Enhancing affordability and accessibility, we optimize school uniform supply chains in Scotland through streamlined processes, ensuring quality uniforms reach every student without financial strain."
